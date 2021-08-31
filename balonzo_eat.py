@@ -8,14 +8,7 @@ class restaurant:
 
 
 # Create a  menu
-menu = [french_fries, sushi, steak, salad]
-
-# Create a customer
-
-# Create an order
-
-# create input
-
+menu = ["burger", "steak", "Veggies", "Soda"]
 
 # Menu: create a dictionary for menu
 
@@ -28,13 +21,41 @@ menu = [french_fries, sushi, steak, salad]
 # Menu: item prices changed
 
 
+
+# Create a customer
+customer = {
+    "Name": "Lucas Santos",
+    "cell": "6012544889",
+}
+
 # Customer: name for cutomer
 
 # Customer: contact info phone or email
 
 # Customer: available funds so we can afford items.
+wallet = 100
+
+if order == "burger":
+    remainder = wallet - 12
+    print(f"You now have {remainder}")    
 
 
+if order == "steak":
+    remainder = wallet - 15
+    print(f'You now have {remainder}')
+
+
+if order == "veggies":
+    remainder = wallet - 20
+    print(f"You now have ${remainder}")
+
+
+if order == "soda":
+    remainder = wallet - 4
+    print(f"You now have ${remainder}")
+
+
+# Create an order
 
 # Order: name for order
 
@@ -43,3 +64,14 @@ menu = [french_fries, sushi, steak, salad]
 # Order; status of the order
 
 # Order: checkout complete order based on customer info
+
+# create input
+
+
+
+
+
+
+
+
+
